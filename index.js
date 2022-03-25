@@ -36,7 +36,7 @@ app.get('/', (req, res) => {
 
 //adicionar dados
 app.post('/add', (req, res) =>{
-    const boyd = req.body
+    const body = req.body
 
     if (!body) 
         return res.status(400).end()
